@@ -1,5 +1,5 @@
 {
-	"name": "tr_ingest_hospoital_admissions_data",
+	"name": "tr_ingest_ecdc_data",
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
@@ -8,10 +8,6 @@
 				"pipelineReference": {
 					"referenceName": "pl_ingest_ecdc_data",
 					"type": "PipelineReference"
-				},
-				"parameters": {
-					"sourceRelativeURL": "tahsiniqbal98/Covid-19-Data-Analysis-Azure-Data-Factory/main/raw_files/ecdc/cases_deaths/cases_deaths.csv",
-					"sinkFileName": "hospital_admissions.csv"
 				}
 			}
 		],
@@ -20,7 +16,7 @@
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2022-09-07T18:49:00Z",
+				"startTime": "2022-09-08T17:57:00Z",
 				"timeZone": "UTC"
 			}
 		}
